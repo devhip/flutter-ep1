@@ -98,6 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
 //====================================================
 // CREATE BUTTON
 //====================================================
+            // ignore: deprecated_member_use
             RaisedButton(
               onPressed: () {
                 Navigator.push(
@@ -107,6 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
               },
               child: Text('New Page'),
             ),
+            // ignore: deprecated_member_use
             RaisedButton(
               onPressed: () {
                 Navigator.push(
